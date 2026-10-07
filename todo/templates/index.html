@@ -1,0 +1,27 @@
+<!-- {% load static %} -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+        <label>Full name:</label>
+        <input type="text", placeholder="Your name">
+
+        <label>Email Address:</label>
+        <input type="email", placeholder="example@email.com">
+
+        <label>Password:</label>
+        <input type="password">
+
+        <button type="button">Register</button>
+
+        <p>Already have an account?</p> <a href="{% url 'login' %}">Sign in</a>
+    </form>
+</body>
+</html>
